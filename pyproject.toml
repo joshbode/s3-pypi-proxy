@@ -10,7 +10,7 @@ readme = "README.md"
 s3-pypi-proxy = "s3_pypi_proxy:main"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.8"
 boto3 = "^1.22.6"
 Flask = "^2.1.2"
 structlog = "^21.5.0"
